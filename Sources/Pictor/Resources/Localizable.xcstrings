@@ -1,0 +1,4343 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Details" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "详细信息"
+          }
+        }
+      }
+    },
+    "Details.localization" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Localization"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本地化"
+          }
+        }
+      }
+    },
+    "Details.localization.%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld localized ver."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld本地化版本"
+          }
+        }
+      }
+    },
+    "Details.localization.default" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Default"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "默认"
+          }
+        }
+      }
+    },
+    "Details.localization.standard" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standard"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标准"
+          }
+        }
+      }
+    },
+    "Details.none" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Extra Detail"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无额外细节"
+          }
+        }
+      }
+    },
+    "Details.restrictions" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usage Restrictions"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用限制"
+          }
+        }
+      }
+    },
+    "Emoji.group.1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smileys & Emotion"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "笑脸与表情"
+          }
+        }
+      }
+    },
+    "Emoji.group.2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "People & Body"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "人与身体"
+          }
+        }
+      }
+    },
+    "Emoji.group.3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Component"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "组件"
+          }
+        }
+      }
+    },
+    "Emoji.group.4" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animals & Nature"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "动物与自然"
+          }
+        }
+      }
+    },
+    "Emoji.group.5" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Food & Drink"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "饮食"
+          }
+        }
+      }
+    },
+    "Emoji.group.6" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Travel & Places"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "旅游与位置"
+          }
+        }
+      }
+    },
+    "Emoji.group.7" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activities"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "活动"
+          }
+        }
+      }
+    },
+    "Emoji.group.8" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objects"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "杂物"
+          }
+        }
+      }
+    },
+    "Emoji.group.9" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symbols"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "符号"
+          }
+        }
+      }
+    },
+    "Emoji.group.10" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flags"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "旗帜"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Smiling"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "笑脸"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Affection"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "面部情感"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Tongue"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "吐舌"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.4" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Hand"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摆手"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.5" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Neutral Skeptical"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蹊跷"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.6" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Sleepy"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "昏昏欲睡"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.7" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Unwell"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状态不佳"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.8" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Hat"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "戴帽"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.9" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Glasses"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "戴镜"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.10" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Concerned"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "纠结"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.11" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Negative"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "负面"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.12" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Costume"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "服饰"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.13" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cat Face"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "猫脸"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.14" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monkey Face"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "猴脸"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.15" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heart"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "爱心"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.1.16" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emotion"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "情绪"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hand Fingers Open"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手指摊开"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hand Fingers Partial"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手指半开"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hand Single Finger"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "单指"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.4" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hand Fingers Closed"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "握拳"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.5" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hands"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "双手"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.6" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hand Prop"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手持物品"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.7" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Body Parts"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "身体部位"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.8" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Person"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "人"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.9" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Person Gesture"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打手势"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.10" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Person Role"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "社会角色"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.11" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Person Fantasy"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "虚幻角色"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.12" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Person Activity"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "活动"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.13" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Person Sport"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "运动"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.14" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Person Resting"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "休息"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.15" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Family"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "家庭"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.2.16" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Person Symbol"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "人符号"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.3.1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skin Tone"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "肤色"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.3.2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hair Style"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "发型"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.4.1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mammals"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "哺乳动物"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.4.2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Birds"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鸟类"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.4.3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amphibians"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "两栖动物"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.4.4" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reptiles"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "爬行动物"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.4.5" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marines"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海洋生物"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.4.6" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bugs"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "昆虫"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.4.7" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flowers"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "花朵"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.4.8" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Other"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.5.1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fruits"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水果"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.5.2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vegetables"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蔬菜"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.5.3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prepared"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "成品菜"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.5.4" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asain"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "亚洲菜"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.5.5" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marine"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海鲜"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.5.6" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sweets"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "甜点"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.5.7" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drinks"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "饮料"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.5.8" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dishware"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "餐具"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.6.1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maps"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "地图"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.6.2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geographic"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "地理"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.6.3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buildings"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "建筑"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.6.4" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Religious"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "宗教"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.6.5" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Other Places"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他地点"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.6.6" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ground Transports"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "陆运"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.6.7" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Water Transports"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海运"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.6.8" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Air Transports"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空运"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.6.9" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotels"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "酒店"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.6.10" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.6.11" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sky & Weathers"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天空与气象"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.7.1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Events"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "事件"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.7.2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Award Medals"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "奖牌"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.7.3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sports"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "运动"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.7.4" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Games"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "游戏"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.7.5" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Art & Crafts"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "艺术与手工品"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clothings"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "服饰"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sounds"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "声音"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Music"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音乐"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.4" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Musical Instruments"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "乐器"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.5" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phone"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电话"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.6" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Computer"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电脑"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.7" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Light & Video"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "灯光与视频"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.8" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Book & Paper"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "书与纸"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.9" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Money"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "金钱"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.10" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mail"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "邮件"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.11" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Writing"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "书写"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.12" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Office"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "办公"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.13" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lock"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "锁"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.14" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tools"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "工具"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.15" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Science"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "科学"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.16" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medical"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "医疗"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.17" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Households"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "家具"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.8.18" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Other Objects"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他杂物"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transport Signs"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "交通标识"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warnings"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "警告"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrows"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "箭头"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.4" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Religion"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "宗教"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.5" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zodiacs"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "星座"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.6" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AV Symbols"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音视频符号"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.7" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gender"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "性别"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.8" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Math"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "数学"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.9" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Punctuations"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标点符号"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.10" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Currency"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "货币"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.11" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Other Symbols"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他符号"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.12" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keycaps"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "键帽"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.13" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alphanums"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "字母"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.9.14" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geometrics"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "几何"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.10.1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flags"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "旗帜"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.10.2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Country Flags"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "国旗"
+          }
+        }
+      }
+    },
+    "Emoji.subgroup.10.3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subdivision Flags"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "细分旗帜"
+          }
+        }
+      }
+    },
+    "Group.accessibility" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accessibility"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "辅助功能"
+          }
+        }
+      }
+    },
+    "Group.all" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部"
+          }
+        }
+      }
+    },
+    "Group.arrows" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrows"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "箭头"
+          }
+        }
+      }
+    },
+    "Group.automotive" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automotive"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "车辆"
+          }
+        }
+      }
+    },
+    "Group.cameraandphotos" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera & Photos"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "相机与照片"
+          }
+        }
+      }
+    },
+    "Group.commerce" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commerce"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "商业"
+          }
+        }
+      }
+    },
+    "Group.communication" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Communication"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沟通"
+          }
+        }
+      }
+    },
+    "Group.connectivity" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connectivity"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接"
+          }
+        }
+      }
+    },
+    "Group.devices" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devices"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设备"
+          }
+        }
+      }
+    },
+    "Group.editing" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editing"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编辑"
+          }
+        }
+      }
+    },
+    "Group.fitness" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fitness"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "健身"
+          }
+        }
+      }
+    },
+    "Group.gaming" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gaming"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "游戏"
+          }
+        }
+      }
+    },
+    "Group.health" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Health"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "健康"
+          }
+        }
+      }
+    },
+    "Group.home" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "家"
+          }
+        }
+      }
+    },
+    "Group.human" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Human"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "人"
+          }
+        }
+      }
+    },
+    "Group.indices" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indicies"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编号"
+          }
+        }
+      }
+    },
+    "Group.keyboard" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keyboard"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "键盘"
+          }
+        }
+      }
+    },
+    "Group.maps" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maps"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "地图"
+          }
+        }
+      }
+    },
+    "Group.math" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Math"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "数学"
+          }
+        }
+      }
+    },
+    "Group.media" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Media"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "媒体"
+          }
+        }
+      }
+    },
+    "Group.nature" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nature"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自然"
+          }
+        }
+      }
+    },
+    "Group.objectsandtools" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Object & Tools"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "物体与工具"
+          }
+        }
+      }
+    },
+    "Group.privacyandsecurity" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy & Security"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐私与安全性"
+          }
+        }
+      }
+    },
+    "Group.search" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜索…"
+          }
+        }
+      }
+    },
+    "Group.shapes" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shapes"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "形状"
+          }
+        }
+      }
+    },
+    "Group.textformatting" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text Formatting"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文本排版"
+          }
+        }
+      }
+    },
+    "Group.time" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间"
+          }
+        }
+      }
+    },
+    "Group.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Groups"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "组别"
+          }
+        }
+      }
+    },
+    "Group.transportation" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transportation"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "交通工具"
+          }
+        }
+      }
+    },
+    "Group.weather" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weather"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天气"
+          }
+        }
+      }
+    },
+    "Localization" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Localization"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本地化"
+          }
+        }
+      }
+    },
+    "Localization.ar" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arabic"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "阿拉伯文"
+          }
+        }
+      }
+    },
+    "Localization.bn" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bangla"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "孟加拉文"
+          }
+        }
+      }
+    },
+    "Localization.el" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Greek"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "希腊文"
+          }
+        }
+      }
+    },
+    "Localization.gu" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gujarati"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "古吉拉特文"
+          }
+        }
+      }
+    },
+    "Localization.he" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hebrew"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "希伯来文"
+          }
+        }
+      }
+    },
+    "Localization.hi" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hindi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "印地文"
+          }
+        }
+      }
+    },
+    "Localization.ja" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Japanese"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日文"
+          }
+        }
+      }
+    },
+    "Localization.km" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khmer"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高棉文"
+          }
+        }
+      }
+    },
+    "Localization.kn" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kannada"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "卡纳达文"
+          }
+        }
+      }
+    },
+    "Localization.ko" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korean"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "韩文"
+          }
+        }
+      }
+    },
+    "Localization.ml" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malayalam"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "马拉雅拉姆文"
+          }
+        }
+      }
+    },
+    "Localization.mni" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meitei"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "曼尼普尔文"
+          }
+        }
+      }
+    },
+    "Localization.my" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Burmese"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "缅甸文"
+          }
+        }
+      }
+    },
+    "Localization.or" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odia"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "奥里亚文"
+          }
+        }
+      }
+    },
+    "Localization.pa" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gurmukhi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "古木基文"
+          }
+        }
+      }
+    },
+    "Localization.rtl" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Right-to-left"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从右向左"
+          }
+        }
+      }
+    },
+    "Localization.ru" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Russian"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "俄文"
+          }
+        }
+      }
+    },
+    "Localization.sat" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ol Chiki"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "桑塔利文"
+          }
+        }
+      }
+    },
+    "Localization.te" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Telugu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "泰卢固文"
+          }
+        }
+      }
+    },
+    "Localization.th" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thai"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "泰文"
+          }
+        }
+      }
+    },
+    "Localization.zh" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chinese"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中文"
+          }
+        }
+      }
+    },
+    "Pictor" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pictor"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pictor"
+          }
+        }
+      }
+    },
+    "Pictor.credits" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Credits"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "致谢"
+          }
+        }
+      }
+    },
+    "Restrictions.accessories-and-software-that-are-compatible-with-the-DockKit-API" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to accessories and software that are compatible with the DockKit API."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代兼容DockKit API的配件和软件。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple-Pencil" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple Pencil."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple Pencil。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple-TV" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple TV."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple TV。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple-Vision-Pro" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple Vision Pro."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple Vision Pro。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple-Vision-Pro-and-MacBook" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple Vision Pro and MacBook."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple Vision Pro和MacBook。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple-Watch" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple Watch."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple Watch。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Accessibility-features" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Accessibility Features."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的辅助功能相关功能。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-AirPlay" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s AirPlay."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的AirPlay。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-AirPods" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s AirPods."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的AirPods。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-AirPods-Max" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s AirPods Max."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的AirPods Max。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-AirPods-Pro" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s AirPods Pro."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的AirPods Pro。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-AirPort-Express" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s AirPort Express."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的AirPort Express。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-AirPort-Extreme" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s AirPort Extreme."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的AirPort Extreme。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-AirTag" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s AirTag."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的AirTag。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-App-Clips" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s App Clips."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的App Clips。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-AppleScript-language" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s AppleScript language."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的AppleScript语言。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-ARKit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s ARKit."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的ARKit。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Bonjour-networking" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Bonjour networking."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的Bonjour网络。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Desk-View" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Desk view."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的桌上视角。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Digital-Crown" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Digital Crown."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的数码表冠。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-EarPods" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Earpods."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的EarPods。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Face-ID-feature" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Face ID feature."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的面容ID功能。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-FaceTime-app" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s FaceTime app."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的FaceTime App。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-HomeKit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s HomeKit."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的HomeKit。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-HomePod" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s HomePod."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的HomePod。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-HomePod-and-Apple-TV" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s HomePod and Apple TV."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的HomePod和Apple TV。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-HomePod-and-HomePod-mini" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s HomePod and HomePod mini."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的HomePod和HomePod mini。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-HomePod-mini" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s HomePod mini."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的HomePod mini。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-HomePod-mini-and-Apple-TV" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s HomePod mini and Apple TV."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的HomePod mini和Apple TV。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-iCloud-service" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s iCloud service."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的iCloud服务。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-iPad" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s iPad."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的iPad。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-iPad-and-iPhone" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s iPad and iPhone."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的iPad和iPhone。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-iPad-and-iPhone-case" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s iPad and iPhone case."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的iPad和iPhone保护壳。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-iPad-case" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s iPad case."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的iPad保护壳。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-iPhone" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s iPhone."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的iPhone。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-iPhone-case" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s iPhone case."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的iPhone保护壳。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-iPhone-Smart-Battery-Case" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s iPhone Smart Battery Case."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的iPhone智能电池壳。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-iPod" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s iPod."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的iPod。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-iPod-shuffle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s iPod shuffle."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的iPod shuffle。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-iPod-touch" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s iPod touch."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的iPod touch。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Live-Photos-feature" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Live Photos feature."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的实况照片功能。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Mac-mini" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Mac mini."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的Mac mini。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Mac-Pro" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Mac Pro."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的Mac Pro。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Mac-Studio" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Mac Studio."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的Mac Studio。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-MacBook" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Macbook."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的MacBook。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Magic-Mouse" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Magic Mouse."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的妙控鼠标。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-MagSafe-Battery-Pack" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s MagSafe Battery Pack."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的MagSafe 外接电池。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Markup-feature" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Markup feature."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的标记功能。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Meditation-in-Fitness+" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Meditation in Fitness+."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple Fitness+中的冥想。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Messages-app" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Message app."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的信息App。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Optic-ID-feature" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Optic ID feature."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的视控ID功能。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Safari-browser" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Safari browser."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的Safari浏览器。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Shared-With-You-feature" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Share With You feature."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的“与你分享”功能。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-SharePlay" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s SharePlay."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的同播共享。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Shazam" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Shazam."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的Shazam。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Swift-programming-language" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Swift programming language."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的Swift编程语言。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-SwiftData" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s SwiftData."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的SwiftData。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Teletype-feature" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Teletype feature."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的Teletype功能。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Touch-ID-feature" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Touch ID feature."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的触控ID功能。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-translation-features" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s translation features."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的翻译功能。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Xserve" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Xserve."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的Xserve。"
+          }
+        }
+      }
+    },
+    "Restrictions.Apple’s-Xserve-RAID" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Apple’s Xserve RAID."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Apple的Xserve RAID。"
+          }
+        }
+      }
+    },
+    "Restrictions.Beats-earphones" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Beats earphones."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Beats earphones。"
+          }
+        }
+      }
+    },
+    "Restrictions.Beats-Fit-Pro" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Beats Fit Pro."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Beats Fit Pro。"
+          }
+        }
+      }
+    },
+    "Restrictions.Beats-Fit-Pro-case" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Beats Fit Pro case."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Beats Fit Pro case。"
+          }
+        }
+      }
+    },
+    "Restrictions.Beats-headphones" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Beats headphones."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Beats headphones。"
+          }
+        }
+      }
+    },
+    "Restrictions.Beats-Powerbeats" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Beats Powerbeats."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Beats Powerbeats。"
+          }
+        }
+      }
+    },
+    "Restrictions.Beats-Powerbeats-Pro" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Beats Powerbeats Pro."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Beats Powerbeats Pro。"
+          }
+        }
+      }
+    },
+    "Restrictions.Beats-Powerbeats-Pro-case" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Beats PowerBeats Pro case."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Beats Powerbeats Pro case。"
+          }
+        }
+      }
+    },
+    "Restrictions.Beats-Powerbeats3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Beats Powerbeats 3."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Beats Powerbeats3。"
+          }
+        }
+      }
+    },
+    "Restrictions.Beats-Studio-Buds" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Beats Studio Buds."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Beats Studio Buds。"
+          }
+        }
+      }
+    },
+    "Restrictions.Beats-Studio-Buds-case" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Beats Studio Buds case."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Beats Studio Buds case。"
+          }
+        }
+      }
+    },
+    "Restrictions.Beats-Studio-Buds-Plus" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Beats Studio Buds Plus."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Beats Studio Buds Plus。"
+          }
+        }
+      }
+    },
+    "Restrictions.Beats-Studio-Buds-Plus-case" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Beats Studio Buds Plus case."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Beats Studio Buds Plus case。"
+          }
+        }
+      }
+    },
+    "Restrictions.creating-or-signing-in-with-a-passkey" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to creating or signing in with a passkey."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代创建通行密钥或用其登陆。"
+          }
+        }
+      }
+    },
+    "Restrictions.Microsoft’s-Xbox" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Microsoft’s Xbox."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Microsoft的Xbox。"
+          }
+        }
+      }
+    },
+    "Restrictions.music-based-haptic-feedback-for-software-that-are-compatible-with-the-Core-Haptics-API" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to music based haptic feedback for software that are compatible with the Core Haptics API."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代为兼容Core Haptics API的软件提供的基于音乐的震动反馈。"
+          }
+        }
+      }
+    },
+    "Restrictions.sharing-or-using-a-shared-password-or-passkey" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to sharing or using a shared password or passkey."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代分享密码或通行密钥，或使用分享的密码和通行密钥。"
+          }
+        }
+      }
+    },
+    "Restrictions.Sign-in-with-Apple" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Sign in with Apple."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代“通过Apple登陆”"
+          }
+        }
+      }
+    },
+    "Restrictions.Sony’s-PlayStation" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This symbol may only be used to refer to Sony’s Playstation."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该符号只能指代Sony的PlayStation"
+          }
+        }
+      }
+    },
+    "Search.field" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search Symbols"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以英语搜索符号"
+          }
+        }
+      }
+    },
+    "Search.none" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Symbols"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无符号"
+          }
+        }
+      }
+    },
+    "Search.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜索"
+          }
+        }
+      }
+    },
+    "Search.waiting" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search Something"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜点什么"
+          }
+        }
+      }
+    },
+    "This symbol may not be modified and may only be used to refer to accessories and software that are compatible with the DockKit API." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple Pencil." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple TV." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple Vision Pro and MacBook." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple Vision Pro." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple Watch." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Accessibility features." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s AirPlay." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s AirPods Max." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s AirPods Pro." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s AirPods." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s AirPort Express." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s AirPort Extreme." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s AirTag." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s App Clips." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s AppleScript language." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s ARKit." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Bonjour networking." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Desk View." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Digital Crown." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s EarPods." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Face ID feature." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s FaceTime app." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s HomeKit." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s HomePod and Apple TV." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s HomePod and HomePod mini." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s HomePod mini and Apple TV." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s HomePod mini." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s HomePod." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s iCloud service." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s iPad and iPhone case." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s iPad and iPhone." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s iPad case." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s iPad." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s iPhone case." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s iPhone Smart Battery Case." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s iPhone." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s iPod shuffle." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s iPod touch." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s iPod." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Live Photos feature." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Mac mini." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Mac Pro." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Mac Studio." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s MacBook." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Magic Mouse." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s MagSafe Battery Pack." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Markup feature." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Meditation in Fitness+." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Messages app." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Optic ID feature." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Safari browser." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Shared With You feature." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s SharePlay." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Shazam." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Swift programming language." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s SwiftData." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Teletype feature." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Touch ID feature." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s translation features." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Xserve RAID." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Apple’s Xserve." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Beats earphones." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Beats Fit Pro case." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Beats Fit Pro." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Beats headphones." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro case." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Beats Powerbeats." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Beats Powerbeats3." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Beats Studio Buds case." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Beats Studio Buds Plus case." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Beats Studio Buds Plus." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Beats Studio Buds." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to creating or signing in with a passkey." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Microsoft’s Xbox." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to music based haptic feedback for software that are compatible with the Core Haptics API." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to sharing or using a shared password or passkey." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Sign in with Apple." : {
+      "shouldTranslate" : false
+    },
+    "This symbol may not be modified and may only be used to refer to Sony’s PlayStation." : {
+      "shouldTranslate" : false
+    }
+  },
+  "version" : "1.0"
+}

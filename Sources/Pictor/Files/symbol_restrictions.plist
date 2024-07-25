@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accessibility</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Accessibility features.</string>
+	<key>accessibility.badge.arrow.up.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Accessibility features.</string>
+	<key>accessibility.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Accessibility features.</string>
+	<key>airplay.audio</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPlay.</string>
+	<key>airplay.audio.badge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPlay.</string>
+	<key>airplay.audio.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPlay.</string>
+	<key>airplay.audio.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPlay.</string>
+	<key>airplay.video</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPlay.</string>
+	<key>airplay.video.badge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPlay.</string>
+	<key>airplay.video.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPlay.</string>
+	<key>airplay.video.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPlay.</string>
+	<key>airpod.gen3.left</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods.</string>
+	<key>airpod.gen3.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods.</string>
+	<key>airpod.left</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods.</string>
+	<key>airpod.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods.</string>
+	<key>airpods</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods.</string>
+	<key>airpods.chargingcase</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods.</string>
+	<key>airpods.chargingcase.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods.</string>
+	<key>airpods.chargingcase.wireless</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods.</string>
+	<key>airpods.chargingcase.wireless.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods.</string>
+	<key>airpods.gen3</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods.</string>
+	<key>airpods.gen3.chargingcase.wireless</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods.</string>
+	<key>airpods.gen3.chargingcase.wireless.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods.</string>
+	<key>airpods.max</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods Max.</string>
+	<key>airpods.pro</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods Pro.</string>
+	<key>airpods.pro.chargingcase.wireless</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods Pro.</string>
+	<key>airpods.pro.chargingcase.wireless.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods Pro.</string>
+	<key>airpods.pro.chargingcase.wireless.radiowaves.left.and.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods Pro.</string>
+	<key>airpods.pro.chargingcase.wireless.radiowaves.left.and.right.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods Pro.</string>
+	<key>airpods.pro.left</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods Pro.</string>
+	<key>airpods.pro.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPods Pro.</string>
+	<key>airport.express</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPort Express.</string>
+	<key>airport.extreme</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPort Extreme.</string>
+	<key>airport.extreme.tower</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirPort Extreme.</string>
+	<key>airtag</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirTag.</string>
+	<key>airtag.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirTag.</string>
+	<key>airtag.radiowaves.forward</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirTag.</string>
+	<key>airtag.radiowaves.forward.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirTag.</string>
+	<key>airtag.radiowaves.forward.fill.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirTag.</string>
+	<key>airtag.radiowaves.forward.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AirTag.</string>
+	<key>appclip</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s App Clips.</string>
+	<key>apple.haptics.and.exclamationmark.triangle</key>
+	<string>This symbol may not be modified and may only be used to refer to music based haptic feedback for software that are compatible with the Core Haptics API.</string>
+	<key>apple.haptics.and.music.note</key>
+	<string>This symbol may not be modified and may only be used to refer to music based haptic feedback for software that are compatible with the Core Haptics API.</string>
+	<key>apple.haptics.and.music.note.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to music based haptic feedback for software that are compatible with the Core Haptics API.</string>
+	<key>apple.logo</key>
+	<string>This symbol may not be modified and may only be used to refer to Sign in with Apple.</string>
+	<key>apple.meditate</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Meditation in Fitness+.</string>
+	<key>apple.meditate.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Meditation in Fitness+.</string>
+	<key>apple.meditate.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Meditation in Fitness+.</string>
+	<key>apple.meditate.square.stack</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Meditation in Fitness+.</string>
+	<key>apple.meditate.square.stack.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Meditation in Fitness+.</string>
+	<key>applepencil</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Pencil.</string>
+	<key>applepencil.adapter.usb.c</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Pencil.</string>
+	<key>applepencil.adapter.usb.c.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Pencil.</string>
+	<key>applepencil.and.scribble</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Pencil.</string>
+	<key>applepencil.gen1</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Pencil.</string>
+	<key>applepencil.gen2</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Pencil.</string>
+	<key>applepencil.tip</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Pencil.</string>
+	<key>applescript</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AppleScript language.</string>
+	<key>applescript.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s AppleScript language.</string>
+	<key>appletv</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>appletv.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>appletvremote.gen1</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>appletvremote.gen1.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>appletvremote.gen2</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>appletvremote.gen2.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>appletvremote.gen3</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>appletvremote.gen3.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>appletvremote.gen4</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>appletvremote.gen4.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>applewatch</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>applewatch.and.arrow.forward</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>applewatch.and.arrow.forward.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>applewatch.case.sizes</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>applewatch.radiowaves.left.and.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>applewatch.side.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>applewatch.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>applewatch.watchface</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>apps.ipad</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>apps.ipad.landscape</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>apps.iphone</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>apps.iphone.badge.plus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>apps.iphone.landscape</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>apps.iphone.landscape.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>arkit</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s ARKit.</string>
+	<key>arkit.badge.xmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s ARKit.</string>
+	<key>arrow.down.applewatch</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>arrow.down.left.video</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>arrow.down.left.video.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>arrow.down.message</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>arrow.down.message.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>arrow.trianglehead.2.clockwise.rotate.90.icloud</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>arrow.trianglehead.2.clockwise.rotate.90.icloud.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>arrow.trianglehead.clockwise.icloud</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>arrow.trianglehead.clockwise.icloud.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>arrow.trianglehead.counterclockwise.icloud</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>arrow.trianglehead.counterclockwise.icloud.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>arrow.up.message</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>arrow.up.message.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>arrow.up.right.video</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>arrow.up.right.video.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>beats.earphones</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats earphones.</string>
+	<key>beats.fitpro</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Fit Pro.</string>
+	<key>beats.fitpro.chargingcase</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Fit Pro case.</string>
+	<key>beats.fitpro.chargingcase.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Fit Pro case.</string>
+	<key>beats.fitpro.left</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Fit Pro.</string>
+	<key>beats.fitpro.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Fit Pro.</string>
+	<key>beats.headphones</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats headphones.</string>
+	<key>beats.powerbeats</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Powerbeats.</string>
+	<key>beats.powerbeats.left</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Powerbeats.</string>
+	<key>beats.powerbeats.pro</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro.</string>
+	<key>beats.powerbeats.pro.chargingcase</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro case.</string>
+	<key>beats.powerbeats.pro.chargingcase.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro case.</string>
+	<key>beats.powerbeats.pro.left</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro.</string>
+	<key>beats.powerbeats.pro.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro.</string>
+	<key>beats.powerbeats.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Powerbeats.</string>
+	<key>beats.powerbeats3</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Powerbeats3.</string>
+	<key>beats.powerbeats3.left</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Powerbeats3.</string>
+	<key>beats.powerbeats3.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Powerbeats3.</string>
+	<key>beats.studiobuds</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Studio Buds.</string>
+	<key>beats.studiobuds.chargingcase</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Studio Buds case.</string>
+	<key>beats.studiobuds.chargingcase.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Studio Buds case.</string>
+	<key>beats.studiobuds.left</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Studio Buds.</string>
+	<key>beats.studiobuds.plus</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Studio Buds Plus.</string>
+	<key>beats.studiobuds.plus.chargingcase</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Studio Buds Plus case.</string>
+	<key>beats.studiobuds.plus.chargingcase.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Studio Buds Plus case.</string>
+	<key>beats.studiobuds.plus.left</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Studio Buds Plus.</string>
+	<key>beats.studiobuds.plus.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Studio Buds Plus.</string>
+	<key>beats.studiobuds.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Beats Studio Buds.</string>
+	<key>bolt.horizontal.icloud</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>bolt.horizontal.icloud.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>bonjour</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Bonjour networking.</string>
+	<key>checkmark.applewatch</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>checkmark.icloud</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>checkmark.icloud.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>checkmark.message</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>checkmark.message.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>desktopcomputer.and.macbook</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s MacBook.</string>
+	<key>deskview</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Desk View.</string>
+	<key>deskview.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Desk View.</string>
+	<key>digitalcrown.arrow.clockwise</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.</string>
+	<key>digitalcrown.arrow.clockwise.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.</string>
+	<key>digitalcrown.arrow.counterclockwise</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.</string>
+	<key>digitalcrown.arrow.counterclockwise.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.</string>
+	<key>digitalcrown.horizontal.arrow.clockwise</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.</string>
+	<key>digitalcrown.horizontal.arrow.clockwise.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.</string>
+	<key>digitalcrown.horizontal.arrow.counterclockwise</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.</string>
+	<key>digitalcrown.horizontal.arrow.counterclockwise.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.</string>
+	<key>digitalcrown.horizontal.press</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.</string>
+	<key>digitalcrown.horizontal.press.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.</string>
+	<key>digitalcrown.press</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.</string>
+	<key>digitalcrown.press.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.</string>
+	<key>earpods</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s EarPods.</string>
+	<key>ellipsis.message</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>ellipsis.message.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>exclamationmark.applewatch</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>exclamationmark.icloud</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>exclamationmark.icloud.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>faceid</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Face ID feature.</string>
+	<key>head.profile.arrow.forward.and.vision.pro</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>hifispeaker.and.appletv</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>hifispeaker.and.appletv.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>hifispeaker.and.appletv.fill.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>hifispeaker.and.appletv.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple TV.</string>
+	<key>hifispeaker.and.homepod</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>hifispeaker.and.homepod.badge.minus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>hifispeaker.and.homepod.badge.minus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>hifispeaker.and.homepod.badge.plus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>hifispeaker.and.homepod.badge.plus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>hifispeaker.and.homepod.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>hifispeaker.and.homepod.mini</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>hifispeaker.and.homepod.mini.badge.minus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>hifispeaker.and.homepod.mini.badge.minus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>hifispeaker.and.homepod.mini.badge.plus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>hifispeaker.and.homepod.mini.badge.plus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>hifispeaker.and.homepod.mini.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homekit</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomeKit.</string>
+	<key>homepod</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.2</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.2.badge.minus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.2.badge.minus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.2.badge.plus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.2.badge.plus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.2.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.and.appletv</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod and Apple TV.</string>
+	<key>homepod.and.appletv.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod and Apple TV.</string>
+	<key>homepod.and.appletv.fill.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod and Apple TV.</string>
+	<key>homepod.and.appletv.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod and Apple TV.</string>
+	<key>homepod.and.homepod.mini</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod and HomePod mini.</string>
+	<key>homepod.and.homepod.mini.badge.minus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod and HomePod mini.</string>
+	<key>homepod.and.homepod.mini.badge.minus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod and HomePod mini.</string>
+	<key>homepod.and.homepod.mini.badge.plus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod and HomePod mini.</string>
+	<key>homepod.and.homepod.mini.badge.plus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod and HomePod mini.</string>
+	<key>homepod.and.homepod.mini.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod and HomePod mini.</string>
+	<key>homepod.arrow.forward</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.arrow.forward.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.badge.minus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.badge.minus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.badge.plus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.badge.plus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod.</string>
+	<key>homepod.mini</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepod.mini.2</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepod.mini.2.badge.minus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepod.mini.2.badge.minus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepod.mini.2.badge.plus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepod.mini.2.badge.plus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepod.mini.2.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepod.mini.arrow.forward</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepod.mini.arrow.forward.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepod.mini.badge.minus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepod.mini.badge.minus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepod.mini.badge.plus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepod.mini.badge.plus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepod.mini.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.</string>
+	<key>homepodmini.and.appletv</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini and Apple TV.</string>
+	<key>homepodmini.and.appletv.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini and Apple TV.</string>
+	<key>homepodmini.and.appletv.fill.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini and Apple TV.</string>
+	<key>homepodmini.and.appletv.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s HomePod mini and Apple TV.</string>
+	<key>icloud</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>icloud.and.arrow.down</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>icloud.and.arrow.down.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>icloud.and.arrow.up</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>icloud.and.arrow.up.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>icloud.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>icloud.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>icloud.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>icloud.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>icloud.slash.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>icloud.square</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>icloud.square.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>inset.filled.applewatch.case</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>ipad</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.badge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.badge.location</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.badge.play</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.case</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad case.</string>
+	<key>ipad.case.and.iphone.case</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad and iPhone case.</string>
+	<key>ipad.gen1</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen1.badge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen1.badge.location</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen1.badge.play</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen1.landscape</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen1.landscape.badge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen1.landscape.badge.location</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen1.landscape.badge.play</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen2</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen2.badge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen2.badge.location</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen2.badge.play</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen2.landscape</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen2.landscape.badge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen2.landscape.badge.location</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.gen2.landscape.badge.play</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.landscape</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.landscape.and.iphone</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad and iPhone.</string>
+	<key>ipad.landscape.and.iphone.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad and iPhone.</string>
+	<key>ipad.landscape.badge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.landscape.badge.location</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.landscape.badge.play</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>ipad.sizes</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>iphone</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.and.arrow.left.and.arrow.right.inward</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.app.switcher</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.badge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.badge.location</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.badge.play</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.case</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone case.</string>
+	<key>iphone.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.crop.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.dock.motorized.viewfinder</key>
+	<string>This symbol may not be modified and may only be used to refer to accessories and software that are compatible with the DockKit API.</string>
+	<key>iphone.gen1</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.and.arrow.left</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.badge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.badge.location</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.badge.play</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.crop.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.landscape</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.motion</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.radiowaves.left.and.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.radiowaves.left.and.right.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.radiowaves.left.and.right.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.slash.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen1.slash.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.and.arrow.left.and.arrow.right.inward</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.badge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.badge.location</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.badge.play</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.crop.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.landscape</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.motion</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.radiowaves.left.and.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.radiowaves.left.and.right.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.radiowaves.left.and.right.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.slash.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen2.slash.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.and.arrow.left.and.arrow.right.inward</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.badge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.badge.location</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.badge.play</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.crop.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.landscape</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.motion</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.radiowaves.left.and.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.radiowaves.left.and.right.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.radiowaves.left.and.right.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.slash.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.gen3.slash.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.landscape</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.motion</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.radiowaves.left.and.right</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.radiowaves.left.and.right.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.radiowaves.left.and.right.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.sizes</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.slash.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.slash.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>iphone.smartbatterycase.gen1</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone Smart Battery Case.</string>
+	<key>iphone.smartbatterycase.gen2</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone Smart Battery Case.</string>
+	<key>ipod</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPod.</string>
+	<key>ipod.shuffle.gen1</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPod shuffle.</string>
+	<key>ipod.shuffle.gen2</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPod shuffle.</string>
+	<key>ipod.shuffle.gen3</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPod shuffle.</string>
+	<key>ipod.shuffle.gen4</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPod shuffle.</string>
+	<key>ipod.touch</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPod touch.</string>
+	<key>ipod.touch.landscape</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPod touch.</string>
+	<key>ipod.touch.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPod touch.</string>
+	<key>key.icloud</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>key.icloud.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>link.icloud</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>link.icloud.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>livephoto</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Live Photos feature.</string>
+	<key>livephoto.badge.automatic</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Live Photos feature.</string>
+	<key>livephoto.play</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Live Photos feature.</string>
+	<key>livephoto.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Live Photos feature.</string>
+	<key>lock.applewatch</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>lock.icloud</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>lock.icloud.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>lock.open.applewatch</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>macbook</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s MacBook.</string>
+	<key>macbook.and.ipad</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPad.</string>
+	<key>macbook.and.iphone</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iPhone.</string>
+	<key>macbook.and.vision.pro</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro and MacBook.</string>
+	<key>macbook.gen1</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s MacBook.</string>
+	<key>macbook.gen2</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s MacBook.</string>
+	<key>macmini</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Mac mini.</string>
+	<key>macmini.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Mac mini.</string>
+	<key>macpro.gen1</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Mac Pro.</string>
+	<key>macpro.gen1.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Mac Pro.</string>
+	<key>macpro.gen2</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Mac Pro.</string>
+	<key>macpro.gen2.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Mac Pro.</string>
+	<key>macpro.gen3</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Mac Pro.</string>
+	<key>macpro.gen3.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Mac Pro.</string>
+	<key>macpro.gen3.server</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Mac Pro.</string>
+	<key>macstudio</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Mac Studio.</string>
+	<key>macstudio.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Mac Studio.</string>
+	<key>magicmouse</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Magic Mouse.</string>
+	<key>magicmouse.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Magic Mouse.</string>
+	<key>magsafe.batterypack</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s MagSafe Battery Pack.</string>
+	<key>magsafe.batterypack.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s MagSafe Battery Pack.</string>
+	<key>message</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.badge</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.badge.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.badge.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.badge.circle.fill.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.badge.circle.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.badge.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.badge.fill.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.badge.filled.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.badge.filled.fill.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.badge.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.badge.waveform</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.badge.waveform.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>message.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>opticid</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Optic ID feature.</string>
+	<key>opticid.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Optic ID feature.</string>
+	<key>pencil.tip</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Markup feature.</string>
+	<key>pencil.tip.crop.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Markup feature.</string>
+	<key>pencil.tip.crop.circle.badge.arrow.forward</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Markup feature.</string>
+	<key>pencil.tip.crop.circle.badge.arrow.forward.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Markup feature.</string>
+	<key>pencil.tip.crop.circle.badge.minus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Markup feature.</string>
+	<key>pencil.tip.crop.circle.badge.minus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Markup feature.</string>
+	<key>pencil.tip.crop.circle.badge.plus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Markup feature.</string>
+	<key>pencil.tip.crop.circle.badge.plus.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Markup feature.</string>
+	<key>pencil.tip.crop.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Markup feature.</string>
+	<key>person.2.badge.key</key>
+	<string>This symbol may not be modified and may only be used to refer to sharing or using a shared password or passkey.</string>
+	<key>person.2.badge.key.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to sharing or using a shared password or passkey.</string>
+	<key>person.badge.key</key>
+	<string>This symbol may not be modified and may only be used to refer to creating or signing in with a passkey.</string>
+	<key>person.badge.key.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to creating or signing in with a passkey.</string>
+	<key>person.icloud</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>person.icloud.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>platter.bottom.applewatch.case</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>platter.filled.bottom.applewatch.case</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>platter.filled.top.applewatch.case</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>platter.top.applewatch.case</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>playstation.logo</key>
+	<string>This symbol may not be modified and may only be used to refer to Sony’s PlayStation.</string>
+	<key>plus.message</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>plus.message.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Messages app.</string>
+	<key>questionmark.video</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>questionmark.video.ar</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>questionmark.video.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>questionmark.video.fill.ar</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>safari</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Safari browser.</string>
+	<key>safari.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Safari browser.</string>
+	<key>sharedwithyou</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Shared With You feature.</string>
+	<key>sharedwithyou.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Shared With You feature.</string>
+	<key>sharedwithyou.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Shared With You feature.</string>
+	<key>sharedwithyou.circle.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Shared With You feature.</string>
+	<key>shareplay</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s SharePlay.</string>
+	<key>shareplay.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s SharePlay.</string>
+	<key>shazam.logo</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Shazam.</string>
+	<key>shazam.logo.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Shazam.</string>
+	<key>swift</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Swift programming language.</string>
+	<key>swiftdata</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s SwiftData.</string>
+	<key>teletype</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Teletype feature.</string>
+	<key>teletype.answer</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Teletype feature.</string>
+	<key>teletype.answer.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Teletype feature.</string>
+	<key>teletype.answer.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Teletype feature.</string>
+	<key>teletype.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Teletype feature.</string>
+	<key>teletype.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Teletype feature.</string>
+	<key>touchid</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Touch ID feature.</string>
+	<key>translate</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s translation features.</string>
+	<key>video</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.badge.checkmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.badge.ellipsis</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.badge.plus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.badge.waveform</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.badge.waveform.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.bubble</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.bubble.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.bubble.fill.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.bubble.rtl</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.fill.badge.checkmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.fill.badge.ellipsis</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.fill.badge.plus</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.slash.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.slash.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.slash.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.square</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>video.square.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.</string>
+	<key>vision.pro</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.and.arrow.forward</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.and.arrow.forward.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.badge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.badge.exclamationmark.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.badge.play</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.badge.play.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.slash</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.slash.circle</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.slash.circle.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.slash.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.trianglebadge.exclamationmark</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>vision.pro.trianglebadge.exclamationmark.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Vision Pro.</string>
+	<key>voiceover</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Accessibility features.</string>
+	<key>watchface.applewatch.case</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple Watch.</string>
+	<key>xbox.logo</key>
+	<string>This symbol may not be modified and may only be used to refer to Microsoft’s Xbox.</string>
+	<key>xmark.icloud</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>xmark.icloud.fill</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s iCloud service.</string>
+	<key>xserve</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Xserve.</string>
+	<key>xserve.raid</key>
+	<string>This symbol may not be modified and may only be used to refer to Apple’s Xserve RAID.</string>
+</dict>
+</plist>

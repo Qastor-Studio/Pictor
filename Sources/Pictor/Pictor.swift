@@ -376,7 +376,7 @@ struct PictorDetailsView: View {
 }
 
 public struct PictorAboutView: View {
-  public let PictorVersion = "rc2"
+  public let PictorVersion = "1.0.0"
   public var body: some View {
     if #available(watchOS 10.0, *) {
       NavigationStack {

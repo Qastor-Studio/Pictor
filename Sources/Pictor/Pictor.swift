@@ -12,30 +12,42 @@ let systemVersion = WKInterfaceDevice.current().systemVersion
 
 public struct PictorSymbolPicker<L: View>: View {
   public var symbol: Binding<String>
+  public var presentAsSheet: Bool
   public var selectionColor: Color
   public var aboutLinkIsHidden: Bool
   public var label: () -> L
   public var onSubmit: () -> Void = {}
-  public init(symbol: Binding<String>, selectionColor: Color = Color.accentColor, aboutLinkIsHidden: Bool = false, label: @escaping () -> L = {Text("Pictor")}, onSubmit: @escaping () -> Void = {}) {
+  public init(symbol: Binding<String>, presentAsSheet: Bool = false, selectionColor: Color = Color.accentColor, aboutLinkIsHidden: Bool = false, label: @escaping () -> L = {HStack{Text("Pictor");Spacer()}}, onSubmit: @escaping () -> Void = {}) {
     self.symbol = symbol
+    self.presentAsSheet = presentAsSheet
     self.selectionColor = selectionColor
     self.aboutLinkIsHidden = aboutLinkIsHidden
     self.label = label
     self.onSubmit = onSubmit
   }
-  @State var isColorSheetDisplaying = false
+  @State var isSheetDisplaying = false
   public var body: some View {
     NavigationStack {
+      if presentAsSheet {
+        Button(action: {
+          isSheetDisplaying = true
+        }, label: {
+          label()
+        })
+        .sheet(isPresented: $isSheetDisplaying, content: {
+          PictorSymbolMainView(symbol: symbol, selectionColor: selectionColor, aboutLinkIsHidden: aboutLinkIsHidden)
+            .onDisappear {
+              onSubmit()
+            }
+        })
+      }
       NavigationLink(destination: {
         PictorSymbolMainView(symbol: symbol, selectionColor: selectionColor, aboutLinkIsHidden: aboutLinkIsHidden)
           .onDisappear {
             onSubmit()
           }
       }, label: {
-        HStack {
-          label()
-          Spacer()
-        }
+        label()
       })
     }
   }
@@ -43,28 +55,40 @@ public struct PictorSymbolPicker<L: View>: View {
 
 public struct PictorEmojiPicker<L: View>: View {
   public var emoji: Binding<String>
+  public var presentAsSheet: Bool
   public var aboutLinkIsHidden: Bool
   public var label: () -> L
   public var onSubmit: () -> Void = {}
-  public init(emoji: Binding<String>, aboutLinkIsHidden: Bool = false, label: @escaping () -> L = {Text("Pictor")}, onSubmit: @escaping () -> Void = {}) {
+  public init(emoji: Binding<String>, presentAsSheet: Bool = false, aboutLinkIsHidden: Bool = false, label: @escaping () -> L = {HStack{Text("Pictor");Spacer()}}, onSubmit: @escaping () -> Void = {}) {
     self.emoji = emoji
+    self.presentAsSheet = presentAsSheet
     self.aboutLinkIsHidden = aboutLinkIsHidden
     self.label = label
     self.onSubmit = onSubmit
   }
-  @State var isColorSheetDisplaying = false
+  @State var isSheetDisplaying = false
   public var body: some View {
     NavigationStack {
+      if presentAsSheet {
+        Button(action: {
+          isSheetDisplaying = true
+        }, label: {
+          label()
+        })
+        .sheet(isPresented: $isSheetDisplaying, content: {
+          PictorEmojiMainView(emoji: emoji, aboutLinkIsHidden: aboutLinkIsHidden)
+            .onDisappear {
+              onSubmit()
+            }
+        })
+      }
       NavigationLink(destination: {
         PictorEmojiMainView(emoji: emoji, aboutLinkIsHidden: aboutLinkIsHidden)
           .onDisappear {
             onSubmit()
           }
       }, label: {
-        HStack {
-          label()
-          Spacer()
-        }
+        label()
       })
     }
   }
@@ -196,7 +220,7 @@ struct PictorEmojiMainView: View {
                       Text(emojiSubgroupNames[group+1]![subgroup])
                         .font(.caption)
                         .fontWeight(.medium)
-//                        .fontWeight(.light)
+                      //                        .fontWeight(.light)
                       Spacer()
                     }
                     .padding(.horizontal, 3)
@@ -294,16 +318,16 @@ struct PictorDetailsView: View {
                         }
                       }
                     })
-//                    Button(action: {}, label: {
-//                      HStack {
-//                        Image(systemName: localizationBody)
-//                          
-//                        Text(String(localized: "Details.localization.standard", bundle: Bundle.module))
-//                        Spacer()
-//                      }
-//                      .foregroundStyle(.secondary)
-//                      .environment(\.locale, .init(identifier: "en"))
-//                    })
+                    //                    Button(action: {}, label: {
+                    //                      HStack {
+                    //                        Image(systemName: localizationBody)
+                    //
+                    //                        Text(String(localized: "Details.localization.standard", bundle: Bundle.module))
+                    //                        Spacer()
+                    //                      }
+                    //                      .foregroundStyle(.secondary)
+                    //                      .environment(\.locale, .init(identifier: "en"))
+                    //                    })
                   }
                   Section {
                     if symbolsWithLocalizations[localizationBody] != nil {
@@ -376,7 +400,7 @@ struct PictorDetailsView: View {
 }
 
 public struct PictorAboutView: View {
-  public let PictorVersion = "1.0.0"
+  public let PictorVersion = "1.1.0"
   public var body: some View {
     if #available(watchOS 10.0, *) {
       NavigationStack {
@@ -425,47 +449,47 @@ public struct PictorAboutView: View {
         }
       }
       .onAppear {
-//        for (key, value) in symbolsAvailability {
-//          print("<key>\(key)</key>")
-//          print("<string>\(value)</string>")
-//        }
+        //        for (key, value) in symbolsAvailability {
+        //          print("<key>\(key)</key>")
+        //          print("<string>\(value)</string>")
+        //        }
       }
-//      .onAppear {
-//        let symbolsOrder = try! PropertyListSerialization.propertyList(from: Data(contentsOf: Bundle.module.url(forResource: "name_aliases", withExtension: "plist")!), format: nil) as! [String: String]
-//        var output: [String: String] = [:]
-//        for (key, value) in symbolsOrder {
-//          if output[value] == nil {
-//            output.updateValue(key, forKey: value)
-//          }
-//////            output[value]?.append(key)
-////          }
-//        }
-//        print(output)
-//      }
-//      .onAppear {
-//        let symbolAvailability = try! PropertyListSerialization.propertyList(from: Data(contentsOf: Bundle.module.url(forResource: "name_availability", withExtension: "plist")!), format: nil) as! [String: [String: Any]]
-////        print(type(of: symbolAvailability))
-//        var symbolsNames = symbolAvailability["symbols"] as! [String: String]
-//        let symbolsYears = symbolAvailability["year_to_release"] as! [String: [String: String]]
-//        var yearsToReplace: [String: String] = [:]
-//        var yearsKey: [String] = []
-//        for (key, value) in symbolsYears {
-//          yearsKey.append(key)
-//          yearsToReplace.updateValue(value["watchOS"]!, forKey: key)
-//        }
-////        print(yearsToReplace)
-////        print(symbolsNames)
-//        symbolsNames.map { key, value in (key, Double(value)!) }
-//        var trueOutput = symbolsNames.description
-//        for i in 0..<yearsKey.count {
-//          trueOutput.replace(yearsKey[i], with: yearsToReplace[yearsKey[i]]!)
-//        }
-//        print(trueOutput)
-////        print(yearsKey)
-////        print(trueOutput)
-////        let symbolsNames = symbolAvailability.0
-////        let symbolsYears = symbolAvailability.1
-//      }
+      //      .onAppear {
+      //        let symbolsOrder = try! PropertyListSerialization.propertyList(from: Data(contentsOf: Bundle.module.url(forResource: "name_aliases", withExtension: "plist")!), format: nil) as! [String: String]
+      //        var output: [String: String] = [:]
+      //        for (key, value) in symbolsOrder {
+      //          if output[value] == nil {
+      //            output.updateValue(key, forKey: value)
+      //          }
+      //////            output[value]?.append(key)
+      ////          }
+      //        }
+      //        print(output)
+      //      }
+      //      .onAppear {
+      //        let symbolAvailability = try! PropertyListSerialization.propertyList(from: Data(contentsOf: Bundle.module.url(forResource: "name_availability", withExtension: "plist")!), format: nil) as! [String: [String: Any]]
+      ////        print(type(of: symbolAvailability))
+      //        var symbolsNames = symbolAvailability["symbols"] as! [String: String]
+      //        let symbolsYears = symbolAvailability["year_to_release"] as! [String: [String: String]]
+      //        var yearsToReplace: [String: String] = [:]
+      //        var yearsKey: [String] = []
+      //        for (key, value) in symbolsYears {
+      //          yearsKey.append(key)
+      //          yearsToReplace.updateValue(value["watchOS"]!, forKey: key)
+      //        }
+      ////        print(yearsToReplace)
+      ////        print(symbolsNames)
+      //        symbolsNames.map { key, value in (key, Double(value)!) }
+      //        var trueOutput = symbolsNames.description
+      //        for i in 0..<yearsKey.count {
+      //          trueOutput.replace(yearsKey[i], with: yearsToReplace[yearsKey[i]]!)
+      //        }
+      //        print(trueOutput)
+      ////        print(yearsKey)
+      ////        print(trueOutput)
+      ////        let symbolsNames = symbolAvailability.0
+      ////        let symbolsYears = symbolAvailability.1
+      //      }
     }
   }
 }
@@ -500,7 +524,7 @@ func getGroupSymbols(_ groupName: String, searchContent: String? = nil) -> [Stri
         }
       }
     }
-
+    
   }
   if isGreaterVersion(getResolvedVersionNumber(latestSystemVer), comparingWith: getResolvedVersionNumber(systemVersion), equal: false) {
     let symbolAliases = try! PropertyListSerialization.propertyList(from: Data(contentsOf: Bundle.module.url(forResource: "symbol_aliases", withExtension: "plist")!), format: nil) as! [String: String]
@@ -512,7 +536,7 @@ func getGroupSymbols(_ groupName: String, searchContent: String? = nil) -> [Stri
         if isGreaterVersion(getResolvedVersionNumber(symbolVer), comparingWith: getResolvedVersionNumber(systemVersion), equal: false) {
           if let symbolAlias = symbolAliases[output[index]] {
             if isGreaterVersion(getResolvedVersionNumber(systemVersion), comparingWith: getResolvedVersionNumber(symbolsAvailability[symbolAlias] ?? "1.0"), equal: true) {
-//              output.replace(output[index], with: symbolAlias)
+              //              output.replace(output[index], with: symbolAlias)
               output[index] = symbolAlias
             } else {
               output.remove(at: index)

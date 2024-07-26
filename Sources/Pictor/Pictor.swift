@@ -9,6 +9,7 @@ let screenHeight = WKInterfaceDevice.current().screenBounds.size.height
 let languageCode = Locale.current.language.languageCode
 let countryCode = Locale.current.region!.identifier
 let systemVersion = WKInterfaceDevice.current().systemVersion
+public let PictorVersion = "1.1.1"
 
 public struct PictorSymbolPicker<L: View>: View {
   public var symbol: Binding<String>
@@ -40,15 +41,16 @@ public struct PictorSymbolPicker<L: View>: View {
               onSubmit()
             }
         })
+      } else {
+        NavigationLink(destination: {
+          PictorSymbolMainView(symbol: symbol, selectionColor: selectionColor, aboutLinkIsHidden: aboutLinkIsHidden)
+            .onDisappear {
+              onSubmit()
+            }
+        }, label: {
+          label()
+        })
       }
-      NavigationLink(destination: {
-        PictorSymbolMainView(symbol: symbol, selectionColor: selectionColor, aboutLinkIsHidden: aboutLinkIsHidden)
-          .onDisappear {
-            onSubmit()
-          }
-      }, label: {
-        label()
-      })
     }
   }
 }
@@ -81,15 +83,16 @@ public struct PictorEmojiPicker<L: View>: View {
               onSubmit()
             }
         })
+      } else {
+        NavigationLink(destination: {
+          PictorEmojiMainView(emoji: emoji, aboutLinkIsHidden: aboutLinkIsHidden)
+            .onDisappear {
+              onSubmit()
+            }
+        }, label: {
+          label()
+        })
       }
-      NavigationLink(destination: {
-        PictorEmojiMainView(emoji: emoji, aboutLinkIsHidden: aboutLinkIsHidden)
-          .onDisappear {
-            onSubmit()
-          }
-      }, label: {
-        label()
-      })
     }
   }
 }
@@ -400,7 +403,6 @@ struct PictorDetailsView: View {
 }
 
 public struct PictorAboutView: View {
-  public let PictorVersion = "1.1.0"
   public var body: some View {
     if #available(watchOS 10.0, *) {
       NavigationStack {

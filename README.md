@@ -22,17 +22,23 @@ Pictor allows users to pick symbol or emoji they like.
 ## Pictor Symbol Picker
 ```swift
 PictorSymbolPicker(symbol: $symbol,
-                           selectionColor: Color.blue,
-                           aboutLinkIsHidden: false,
-                           label: {
-                              Text("Pictor")
-                            }, onSubmit: {
-                              print("Submitted!")
+                   presentAsSheet: false,
+                   selectionColor: Color.blue,
+                   aboutLinkIsHidden: false,
+                   label: {
+                       Text("Pictor")
+                   }, onSubmit: {
+                       print("Submitted!")
 })
 ```
 
 ### symbol
 `symbol: Binding<String>` indicates the symbol name.
+
+### presentAsSheet
+`presentAsSheet: Bool` can make the picker into a button that pops up a sheet on tap.
+
+Default as `false`
 
 ### selectionColor
 `selectionColor: Color` determines what color the symbol will have when it is on selection.
@@ -49,7 +55,7 @@ Default as `false`
 ### label
 `label: () -> L` recieves a view for the picker's label.
 
-Default as `Text("Pictor")`
+Default as `HStack{Text("Pictor");Spacer()}`
 
 ### onSubmit
 `onSubmit: () -> Void` receives actions and will be run when the sheet is closed.
@@ -62,6 +68,7 @@ Default as `{}` (runs nothing when submit)
 ```swift
 PictorEmojiPicker(emoji: $emoji,
                    aboutLinkIsHidden: false,
+                   presentAsSheet: false,
                    label: {
                       Text("Pictor")
                    }, onSubmit: {

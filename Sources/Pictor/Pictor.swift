@@ -9,7 +9,7 @@ let screenHeight = WKInterfaceDevice.current().screenBounds.size.height
 let languageCode = Locale.current.language.languageCode
 let countryCode = Locale.current.region!.identifier
 let systemVersion = WKInterfaceDevice.current().systemVersion
-public let PictorVersion = "1.1.1"
+public let PictorVersion = "1.2.0"
 
 public struct PictorSymbolPicker<L: View>: View {
   public var symbol: Binding<String>
@@ -109,6 +109,15 @@ struct PictorSymbolMainView: View {
   var body: some View {
     NavigationStack {
       List {
+        NavigationLink(destination: {
+          PictorAboutView()
+        }, label: {
+          HStack {
+            Text("Current.symbol")
+            Image(systemName: symbol)
+            Spacer()
+          }
+        })
         ForEach(0..<symbolGroups.count, id: \.self) { group in
           NavigationLink(destination: {
             ScrollView {
@@ -198,6 +207,10 @@ struct PictorEmojiMainView: View {
   var body: some View {
     NavigationStack {
       List {
+        HStack {
+          Text("Current.emoji.\(emoji)")
+          Spacer()
+        }
         ForEach(0..<emojiGroupNames.count, id: \.self) { group in
           if group != 2 {
             NavigationLink(destination: {

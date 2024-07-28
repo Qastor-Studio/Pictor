@@ -9,7 +9,7 @@ let screenHeight = WKInterfaceDevice.current().screenBounds.size.height
 let languageCode = Locale.current.language.languageCode
 let countryCode = Locale.current.region!.identifier
 let systemVersion = WKInterfaceDevice.current().systemVersion
-public let PictorVersion = "1.2.1"
+public let PictorVersion = "1.2.2"
 
 public struct PictorSymbolPicker<L: View>: View {
   public var symbol: Binding<String>
@@ -109,15 +109,17 @@ struct PictorSymbolMainView: View {
   var body: some View {
     NavigationStack {
       List {
-        NavigationLink(destination: {
-          PictorAboutView()
-        }, label: {
-          HStack {
-            Text(String(localized: "Current.symbol", bundle: Bundle.module))
-            Image(systemName: symbol)
-            Spacer()
-          }
-        })
+        if #unavailable(watchOS 10) {
+          NavigationLink(destination: {
+            PictorAboutView()
+          }, label: {
+            HStack {
+              Text(String(localized: "Current.symbol", bundle: Bundle.module))
+              Image(systemName: symbol)
+              Spacer()
+            }
+          })
+        }
         ForEach(0..<symbolGroups.count, id: \.self) { group in
           NavigationLink(destination: {
             ScrollView {
@@ -207,9 +209,11 @@ struct PictorEmojiMainView: View {
   var body: some View {
     NavigationStack {
       List {
-        HStack {
-          Text(String(localized: "Current.emoji.\(emoji)", bundle: Bundle.module))
-          Spacer()
+        if #unavailable(watchOS 10) {
+          HStack {
+            Text(String(localized: "Current.emoji.\(emoji)", bundle: Bundle.module))
+            Spacer()
+          }
         }
         ForEach(0..<emojiGroupNames.count, id: \.self) { group in
           if group != 2 {

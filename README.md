@@ -84,6 +84,16 @@ We do not recommend inputting String that is longer than a character.
 ### Other Parameters
 They are 100% same with `PictorSymbolPictor`, except `PictorEmojiPictor` does not have `selectionColor: Color`.
 
+## Usage
+If `aboutLinkIsHidden` is set to `true` (default as `false`), then you need to add one of these caption below to your project. The caption could be placed at anywhere as long as it is not hard to be found.
+
+> Powered by Pictor
+
+or
+
+> Powered by Garden Pictor
+
+
 ## Credits
 - ThreeManager785
 - WindowsMEMZ

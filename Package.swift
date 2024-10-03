@@ -18,7 +18,14 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
       .target(
           name: "Pictor",
-          resources: [.process("Resources/Localizable.xcstrings"), .process("Files")]
+          resources: [
+            .process("Resources/Localizable.xcstrings"),
+            .process("Files"),
+            .copy("Resources/EmojiDictionary.plist"),
+            .copy("Resources/SymbolsInGroup.plist"),
+            .copy("Resources/SymbolsSearchAssociation.plist"),
+            .copy("Resources/SymbolsWithLocalizations.plist")
+          ]
       ),
     ]
 )

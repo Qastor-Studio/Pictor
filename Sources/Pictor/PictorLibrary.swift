@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+public let PictorVersion = "1.3.1"
 let latestSystemVer = "11.0"
 
 let symbolsInGroup: [String: [String]] = {
@@ -77,7 +78,7 @@ let symbolsSearchAssociation: [String: [String]] = {
 }()
 
 let emojiDictionary: [[[String]]] = {
-    NSDictionary(contentsOf: Bundle.module.url(forResource: "EmojiDictionary", withExtension: "plist")!)! as! [[[String]]]
+    NSArray(contentsOf: Bundle.module.url(forResource: "EmojiDictionary", withExtension: "plist")!)! as! [[[String]]]
 }()
 
 

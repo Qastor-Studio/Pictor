@@ -9,7 +9,6 @@ let screenHeight = WKInterfaceDevice.current().screenBounds.size.height
 let languageCode = Locale.current.language.languageCode
 let countryCode = Locale.current.region!.identifier
 let systemVersion = WKInterfaceDevice.current().systemVersion
-public let PictorVersion = "1.3.0"
 
 public struct PictorSymbolPicker<L: View>: View {
   public var symbol: Binding<String>

@@ -168,7 +168,7 @@ struct PictorSymbolMainView: View {
               }
             }
             .toolbar {
-              if #available(watchOS 10, *) {
+                if #available(watchOS 10.5, *) {
                 ToolbarItem(placement: .topBarTrailing, content: {
                   PictorDetailsView(symbol: $symbol)
                     .contentTransition(.symbolEffect(.replace))
@@ -188,7 +188,7 @@ struct PictorSymbolMainView: View {
       .onAppear {
       }
       .toolbar {
-        if #available(watchOS 10, *) {
+          if #available(watchOS 10.5, *) {
           ToolbarItem(placement: .topBarTrailing, content: {
             PictorDetailsView(symbol: $symbol)
               .contentTransition(.symbolEffect(.replace))
@@ -248,7 +248,7 @@ struct PictorEmojiMainView: View {
               }
               .navigationTitle(Text(emojiGroupNames[group+1]!))
               .toolbar {
-                if #available(watchOS 10, *) {
+                  if #available(watchOS 10.5, *) {
                   ToolbarItem(placement: .topBarTrailing, content: {
                     Button(action: {
                       aboutLinkIsShwon = !aboutLinkIsHidden
@@ -270,7 +270,7 @@ struct PictorEmojiMainView: View {
       }
       .navigationTitle(String(localized: "Group.title", bundle: Bundle.module))
       .toolbar {
-        if #available(watchOS 10, *) {
+          if #available(watchOS 10.5, *) {
           ToolbarItem(placement: .topBarTrailing, content: {
             Button(action: {
               aboutLinkIsShwon = !aboutLinkIsHidden
@@ -402,7 +402,7 @@ struct PictorDetailsView: View {
       }
       .navigationTitle(String(localized: "Details", bundle: Bundle.module))
       .toolbar {
-        if #available(watchOS 10, *) {
+          if #available(watchOS 10.5, *) {
           ToolbarItem(placement: .topBarTrailing, content: {
             NavigationLink(destination: {
               PictorAboutView()
@@ -548,7 +548,7 @@ func getGroupSymbols(_ groupName: String, searchContent: String? = nil) -> [Stri
     let symbolAliases = try! PropertyListSerialization.propertyList(from: Data(contentsOf: Bundle.module.url(forResource: "symbol_aliases", withExtension: "plist")!), format: nil) as! [String: String]
     let symbolsAvailability = try! PropertyListSerialization.propertyList(from: Data(contentsOf: Bundle.module.url(forResource: "symbol_availability", withExtension: "plist")!), format: nil) as! [String: String]
     var index = -1
-    for fakeIndex in 0..<output.count {
+      for _ in 0..<output.count {
       index += 1
       if let symbolVer = symbolsAvailability[arraySafeAccess(output, element: index) ?? ""] {
         if isGreaterVersion(getResolvedVersionNumber(symbolVer), comparingWith: getResolvedVersionNumber(systemVersion), equal: false) {

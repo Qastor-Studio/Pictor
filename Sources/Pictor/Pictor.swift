@@ -4,29 +4,11 @@
 import SwiftUI
 import Foundation
 
-var screenWidth: CGFloat {
-  #if os(watchOS)
-  WKInterfaceDevice.current().screenBounds.size.width
-  #else
-  UIApplication.shared.keyWindow!.bounds.width
-  #endif
-}
-var screenHeight: CGFloat {
-  #if os(watchOS)
-  WKInterfaceDevice.current().screenBounds.size.height
-  #else
-  UIApplication.shared.keyWindow!.bounds.height
-  #endif
-}
+let screenWidth = WKInterfaceDevice.current().screenBounds.size.width
+let screenHeight = WKInterfaceDevice.current().screenBounds.size.height
 let languageCode = Locale.current.language.languageCode
 let countryCode = Locale.current.region!.identifier
-var systemVersion: String {
-  #if os(watchOS)
-  WKInterfaceDevice.current().systemVersion
-  #else
-  UIDevice.current.systemVersion
-  #endif
-}
+let systemVersion = WKInterfaceDevice.current().systemVersion
 
 public struct PictorSymbolPicker<L: View>: View {
   public var symbol: Binding<String>
@@ -45,54 +27,29 @@ public struct PictorSymbolPicker<L: View>: View {
   }
   @State var isSheetDisplaying = false
   public var body: some View {
-    if presentAsSheet {
-      Button(action: {
-        isSheetDisplaying = true
-      }, label: {
-        label()
-      })
-      .sheet(isPresented: $isSheetDisplaying, content: {
-        NavigationStack {
+    NavigationStack {
+      if presentAsSheet {
+        Button(action: {
+          isSheetDisplaying = true
+        }, label: {
+          label()
+        })
+        .sheet(isPresented: $isSheetDisplaying, content: {
           PictorSymbolMainView(symbol: symbol, selectionColor: selectionColor, aboutLinkIsHidden: aboutLinkIsHidden)
-          #if os(iOS)
-            .toolbar {
-              ToolbarItem(placement: .topBarLeading) {
-                if #available(iOS 17.0, *) {
-                  Button("Dismiss", systemImage: "xmark") {
-                    isSheetDisplaying = false
-                  }
-                  .buttonStyle(.bordered)
-                  .buttonBorderShape(.circle)
-                  .labelStyle(.iconOnly)
-                  .bold()
-                  .foregroundStyle(.gray)
-                } else {
-                  Button("Dismiss", systemImage: "xmark") {
-                    isSheetDisplaying = false
-                  }
-                  .buttonStyle(.bordered)
-                  .buttonBorderShape(.roundedRectangle(radius: 1000))
-                  .labelStyle(.iconOnly)
-                  .bold()
-                  .foregroundStyle(.gray)
-                }
-              }
-            }
-          #endif
             .onDisappear {
               onSubmit()
             }
-        }
-      })
-    } else {
-      NavigationLink(destination: {
-        PictorSymbolMainView(symbol: symbol, selectionColor: selectionColor, aboutLinkIsHidden: aboutLinkIsHidden)
-          .onDisappear {
-            onSubmit()
-          }
-      }, label: {
-        label()
-      })
+        })
+      } else {
+        NavigationLink(destination: {
+          PictorSymbolMainView(symbol: symbol, selectionColor: selectionColor, aboutLinkIsHidden: aboutLinkIsHidden)
+            .onDisappear {
+              onSubmit()
+            }
+        }, label: {
+          label()
+        })
+      }
     }
   }
 }
@@ -120,37 +77,10 @@ public struct PictorEmojiPicker<L: View>: View {
           label()
         })
         .sheet(isPresented: $isSheetDisplaying, content: {
-          NavigationStack {
-            PictorEmojiMainView(emoji: emoji, aboutLinkIsHidden: aboutLinkIsHidden)
-            #if os(iOS)
-              .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
-                  if #available(iOS 17.0, *) {
-                    Button("Dismiss", systemImage: "xmark") {
-                      isSheetDisplaying = false
-                    }
-                    .buttonStyle(.bordered)
-                    .buttonBorderShape(.circle)
-                    .labelStyle(.iconOnly)
-                    .bold()
-                    .foregroundStyle(.gray)
-                  } else {
-                    Button("Dismiss", systemImage: "xmark") {
-                      isSheetDisplaying = false
-                    }
-                    .buttonStyle(.bordered)
-                    .buttonBorderShape(.roundedRectangle(radius: 1000))
-                    .labelStyle(.iconOnly)
-                    .bold()
-                    .foregroundStyle(.gray)
-                  }
-                }
-              }
-            #endif
-              .onDisappear {
-                onSubmit()
-              }
-          }
+          PictorEmojiMainView(emoji: emoji, aboutLinkIsHidden: aboutLinkIsHidden)
+            .onDisappear {
+              onSubmit()
+            }
         })
       } else {
         NavigationLink(destination: {
@@ -173,103 +103,97 @@ struct PictorSymbolMainView: View {
   @State var searchContent = ""
   var selectionColor: Color
   var aboutLinkIsHidden = false
+  let symbolWidthSpacing: Double = 8
   let symbolHeightPadding: CGFloat = 1
   var body: some View {
-    List {
-      if #unavailable(iOS 17, watchOS 10) {
-        PictorDetailsView(symbol: $symbol)
-      }
-      ForEach(0..<symbolGroups.count, id: \.self) { group in
-        NavigationLink(destination: {
-          ScrollView {
-            if group == 0 {
-              TextField(String(localized: "Search.field", bundle: Bundle.module), text: $searchContent)
-                .onChange(of: searchContent, perform: { value in
-                  currentGroupSymbols = getGroupSymbols("", searchContent: searchContent.lowercased())
-                })
-                .autocorrectionDisabled()
-                .textInputAutocapitalization(.never)
-              #if os(iOS)
-                .textFieldStyle(.roundedBorder)
-                .padding(.horizontal)
-              #endif
-              Group {
-                if currentGroupSymbols.isEmpty && !searchContent.isEmpty {
-                  Text(String(localized: "Search.none", bundle: Bundle.module))
-                } else if currentGroupSymbols.isEmpty {
-                  Text(String(localized: "Search.waiting", bundle: Bundle.module))
-                }
-              }
-              .padding(.top, 10)
-              .foregroundStyle(.secondary)
-              .font(.title3)
-              .bold()
+    NavigationStack {
+      List {
+        if #unavailable(watchOS 10) {
+          NavigationLink(destination: {
+            PictorAboutView()
+          }, label: {
+            HStack {
+              Text(String(localized: "Current.symbol", bundle: Bundle.module))
+              Image(systemName: symbol)
+              Spacer()
             }
-            #if os(watchOS)
-            let gridColumnCount = 4
-            let symbolWidthSpacing: Double = 8
-            #else
-            let gridColumnCount = 6
-            let symbolWidthSpacing: Double = 10
-            #endif
-            LazyVGrid(columns: .init(repeating: .init(.flexible()), count: gridColumnCount)) {
-              ForEach(0..<currentGroupSymbols.count, id: \.self) { symbolIndex in
+          })
+        }
+        ForEach(0..<symbolGroups.count, id: \.self) { group in
+          NavigationLink(destination: {
+            ScrollView {
+              if group == 0 {
+                TextField(String(localized: "Search.field", bundle: Bundle.module), text: $searchContent)
+                  .onChange(of: searchContent, perform: { value in
+                    currentGroupSymbols = getGroupSymbols("", searchContent: searchContent.lowercased())
+                  })
+                  .autocorrectionDisabled()
+                  .textInputAutocapitalization(.never)
                 Group {
-                  if !currentGroupSymbols.isEmpty {
-                    Button(action: {
-                      symbol = currentGroupSymbols[symbolIndex]
-                    }, label: {
-                      Image(systemName: arraySafeAccess(currentGroupSymbols, element: symbolIndex) ?? "")
-                        .font(.system(size: screenWidth/symbolWidthSpacing))
-                    })
-                    .buttonStyle(.plain)
-                    .foregroundStyle(currentGroupSymbols[symbolIndex] == symbol ? selectionColor : .primary)
+                  if currentGroupSymbols.isEmpty && !searchContent.isEmpty {
+                    Text(String(localized: "Search.none", bundle: Bundle.module))
+                  } else if currentGroupSymbols.isEmpty {
+                    Text(String(localized: "Search.waiting", bundle: Bundle.module))
                   }
                 }
-                .padding(.vertical, symbolHeightPadding)
+                .padding(.top, 10)
+                .foregroundStyle(.secondary)
+                .font(.title3)
+                .bold()
+              }
+              LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]) {
+                ForEach(0..<currentGroupSymbols.count, id: \.self) { symbolIndex in
+                  Group {
+                    if !currentGroupSymbols.isEmpty {
+                      Button(action: {
+                        symbol = currentGroupSymbols[symbolIndex]
+                      }, label: {
+                        Image(systemName: arraySafeAccess(currentGroupSymbols, element: symbolIndex) ?? "")
+                          .font(.system(size: screenWidth/symbolWidthSpacing))
+                      })
+                      .buttonStyle(.plain)
+                      .foregroundStyle(currentGroupSymbols[symbolIndex] == symbol ? selectionColor : .white)
+                    }
+                  }
+                  .padding(.vertical, symbolHeightPadding)
+                }
               }
             }
-            #if os(iOS)
-            .padding()
-            #endif
-          }
-          .navigationTitle(Text(group != 0 ? symbolGroups[group].0 : (LocalizedStringResource("Search.title", bundle: .atURL(Bundle.module.bundleURL)))))
-          .onAppear {
-            if group != 0 {
-              currentGroupSymbols = getGroupSymbols(symbolGroups[group].1)
-            } else {
-              currentGroupSymbols = getGroupSymbols("", searchContent: searchContent.lowercased())
+            .navigationTitle(Text(group != 0 ? symbolGroups[group].0 : (LocalizedStringResource("Search.title", bundle: .atURL(Bundle.module.bundleURL)))))
+            .onAppear {
+              if group != 0 {
+                currentGroupSymbols = getGroupSymbols(symbolGroups[group].1)
+              } else {
+                currentGroupSymbols = getGroupSymbols("", searchContent: searchContent.lowercased())
+              }
             }
-          }
-          .toolbar {
-            if #available(iOS 17, watchOS 10, *) {
-              ToolbarItem(placement: .topBarTrailing, content: {
-                PictorDetailsView(symbol: $symbol)
-                  .contentTransition(.symbolEffect(.replace))
-              })
+            .toolbar {
+              if #available(watchOS 10, *) {
+                ToolbarItem(placement: .topBarTrailing, content: {
+                  PictorDetailsView(symbol: $symbol)
+                    .contentTransition(.symbolEffect(.replace))
+                })
+              }
             }
-          }
-        }, label: {
-          HStack {
-            Label {
-              Text(symbolGroups[group].0)
-            } icon: {
+          }, label: {
+            HStack {
               Image(systemName: symbolGroups[group].2)
+              Text(symbolGroups[group].0)
+              Spacer()
             }
-            Spacer()
-          }
-        })
+          })
+        }
       }
-    }
-    .navigationTitle(String(localized: "Group.title", bundle: Bundle.module))
-    .onAppear {
-    }
-    .toolbar {
-      if #available(iOS 17, watchOS 10, *) {
-        ToolbarItem(placement: .topBarTrailing, content: {
-          PictorDetailsView(symbol: $symbol)
-            .contentTransition(.symbolEffect(.replace))
-        })
+      .navigationTitle(String(localized: "Group.title", bundle: Bundle.module))
+      .onAppear {
+      }
+      .toolbar {
+        if #available(watchOS 10, *) {
+          ToolbarItem(placement: .topBarTrailing, content: {
+            PictorDetailsView(symbol: $symbol)
+              .contentTransition(.symbolEffect(.replace))
+          })
+        }
       }
     }
   }
@@ -279,90 +203,82 @@ struct PictorEmojiMainView: View {
   @Binding var emoji: String
   var aboutLinkIsHidden = false
   @State var aboutLinkIsShwon = false
+  let emojiWidthSpacing: Double = 6
   let emojiHeightPadding: CGFloat = 1
   var body: some View {
-    List {
-      if #unavailable(watchOS 10) {
-        HStack {
-          Text(String(localized: "Current.emoji.\(emoji)", bundle: Bundle.module))
-          Spacer()
+    NavigationStack {
+      List {
+        if #unavailable(watchOS 10) {
+          HStack {
+            Text(String(localized: "Current.emoji.\(emoji)", bundle: Bundle.module))
+            Spacer()
+          }
         }
-      }
-      ForEach(0..<emojiGroupNames.count, id: \.self) { group in
-        if group != 2 {
-          NavigationLink(destination: {
-            List {
-              #if os(watchOS)
-              let gridColumnCount = 4
-              let emojiWidthSpacing: Double = 6
-              #else
-              let gridColumnCount = 6
-              let emojiWidthSpacing: Double = 10
-              #endif
-              ForEach(0..<emojiDictionary[group].count, id: \.self) { subgroup in
-                Section(content: {
-                  LazyVGrid(columns: .init(repeating: .init(.flexible()), count: gridColumnCount)) {
-                    ForEach(0..<hideTaiwanFlag(emojiDictionary[group][subgroup]).count, id: \.self) { emojiIndex in
-                      Group {
-                        Button(action: {
-                          emoji = hideTaiwanFlag(emojiDictionary[group][subgroup])[emojiIndex]
-                        }, label: {
-                          Text(arraySafeAccess(hideTaiwanFlag(emojiDictionary[group][subgroup]), element: emojiIndex) ?? "")
-                            .font(.system(size: screenWidth/emojiWidthSpacing))
-                        })
-                        .buttonStyle(.plain)
+        ForEach(0..<emojiGroupNames.count, id: \.self) { group in
+          if group != 2 {
+            NavigationLink(destination: {
+              ScrollView {
+                ForEach(0..<emojiDictionary[group].count, id: \.self) { subgroup in
+                  Section(content: {
+                    LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]) {
+                      ForEach(0..<hideTaiwanFlag(emojiDictionary[group][subgroup]).count, id: \.self) { emojiIndex in
+                        Group {
+                          Button(action: {
+                            emoji = hideTaiwanFlag(emojiDictionary[group][subgroup])[emojiIndex]
+                          }, label: {
+                            Text(arraySafeAccess(hideTaiwanFlag(emojiDictionary[group][subgroup]), element: emojiIndex) ?? "")
+                              .font(.system(size: screenWidth/emojiWidthSpacing))
+                          })
+                          .buttonStyle(.plain)
+                        }
+                        .padding(.vertical, emojiHeightPadding)
                       }
-                      .padding(.vertical, emojiHeightPadding)
                     }
-                  }
-                }, header: {
-                  HStack {
-                    Text(emojiSubgroupNames[group+1]![subgroup])
-                      .font(.caption)
-                      .fontWeight(.medium)
-                    //                        .fontWeight(.light)
-                    Spacer()
-                  }
-                  .padding(.horizontal, 3)
-                })
-                #if os(watchOS)
-                .listRowBackground(Color.clear)
-                .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
-                #endif
-              }
-            }
-            .navigationTitle(Text(emojiGroupNames[group+1]!))
-            .toolbar {
-              if #available(watchOS 10, *) {
-                ToolbarItem(placement: .topBarTrailing, content: {
-                  Button(action: {
-                    aboutLinkIsShwon = !aboutLinkIsHidden
-                  }, label: {
-                    Text(emoji)
+                  }, header: {
+                    HStack {
+                      Text(emojiSubgroupNames[group+1]![subgroup])
+                        .font(.caption)
+                        .fontWeight(.medium)
+                      //                        .fontWeight(.light)
+                      Spacer()
+                    }
+                    .padding(.horizontal, 3)
                   })
-                })
+                }
               }
-            }
-          }, label: {
-            HStack {
-              Text(emojiGroupExamples[group+1]!)
-              Text(emojiGroupNames[group+1]!)
-              Spacer()
-            }
-          })
+              .navigationTitle(Text(emojiGroupNames[group+1]!))
+              .toolbar {
+                if #available(watchOS 10, *) {
+                  ToolbarItem(placement: .topBarTrailing, content: {
+                    Button(action: {
+                      aboutLinkIsShwon = !aboutLinkIsHidden
+                    }, label: {
+                      Text(emoji)
+                    })
+                  })
+                }
+              }
+            }, label: {
+              HStack {
+                Text(emojiGroupExamples[group+1]!)
+                Text(emojiGroupNames[group+1]!)
+                Spacer()
+              }
+            })
+          }
         }
       }
-    }
-    .navigationTitle(String(localized: "Group.title", bundle: Bundle.module))
-    .toolbar {
-      if #available(watchOS 10, *) {
-        ToolbarItem(placement: .topBarTrailing, content: {
-          Button(action: {
-            aboutLinkIsShwon = !aboutLinkIsHidden
-          }, label: {
-            Text(emoji)
+      .navigationTitle(String(localized: "Group.title", bundle: Bundle.module))
+      .toolbar {
+        if #available(watchOS 10, *) {
+          ToolbarItem(placement: .topBarTrailing, content: {
+            Button(action: {
+              aboutLinkIsShwon = !aboutLinkIsHidden
+            }, label: {
+              Text(emoji)
+            })
           })
-        })
+        }
       }
     }
     .sheet(isPresented: $aboutLinkIsShwon, content: {
@@ -474,9 +390,6 @@ struct PictorDetailsView: View {
             }
           }
         }
-        #if os(iOS)
-        .padding()
-        #endif
       }
       .onAppear {
         if symbol.hasSuffix(".rtl") || symbol.hasSuffix(".ar") || symbol.hasSuffix(".el") || symbol.hasSuffix(".he") || symbol.hasSuffix(".hi") || symbol.hasSuffix(".ja") || symbol.hasSuffix(".ko") || symbol.hasSuffix(".ru") || symbol.hasSuffix(".th") || symbol.hasSuffix(".zh") || symbol.hasSuffix(".el") || symbol.hasSuffix(".my") || symbol.hasSuffix(".km") || symbol.hasSuffix(".bn") || symbol.hasSuffix(".gu") || symbol.hasSuffix(".pa") || symbol.hasSuffix(".te") || symbol.hasSuffix(".ml") || symbol.hasSuffix(".or") || symbol.hasSuffix(".kn") || symbol.hasSuffix(".sat") || symbol.hasSuffix(".mnl")  {
@@ -500,114 +413,102 @@ struct PictorDetailsView: View {
         }
       }
     }, label: {
-      if #available(iOS 17, watchOS 10, *) {
-        Image(systemName: symbol)
-      } else {
-        HStack {
-          Text(String(localized: "Current.symbol", bundle: Bundle.module))
-          Image(systemName: symbol)
-          Spacer()
-        }
-      }
+      Image(systemName: symbol)
     })
   }
 }
 
 public struct PictorAboutView: View {
   public var body: some View {
-    NavigationStack {
-      List {
-        Group {
-          HStack {
-            Spacer()
-            VStack(alignment: .center) {
-              Text(verbatim: "Pictor")
-                .bold()
-                .font(.title2)
-              Group {
-                Text(verbatim: "By Serene Garden")
-                Text(verbatim: PictorVersion)
-                  .monospaced()
-              }
-              //        .foregroundStyle(.secondary)
-              .font(.caption)
-            }
-            Spacer()
-          }
-        }
-        .listRowBackground(Rectangle().opacity(0).frame(height: 0))
-        Section {
-          NavigationLink(destination: {
-            List {
-              Section(content: {
-                Text(verbatim: "ThreeManager785")
-                Text(verbatim: "WindowsMEMZ")
-              }, footer: {
-                Text(verbatim: "https://github.com/Serene-Garden/Pictor")
-              })
-            }
-          }, label: {
+    if #available(watchOS 10.0, *) {
+      NavigationStack {
+        List {
+          Group {
             HStack {
-              if #available(iOS 16.1, watchOS 9.1, *) {
+              Spacer()
+              VStack(alignment: .center) {
+                Text(verbatim: "Pictor")
+                  .bold()
+                  .font(.title2)
+                Group {
+                  Text(verbatim: "By Serene Garden")
+                  Text(verbatim: PictorVersion)
+                    .monospaced()
+                }
+                //        .foregroundStyle(.secondary)
+                .font(.caption)
+              }
+              Spacer()
+            }
+          }
+          .listRowBackground(Rectangle().opacity(0).frame(height: 0))
+          Section {
+            NavigationLink(destination: {
+              List {
+                Section(content: {
+                  Text(verbatim: "ThreeManager785")
+                  Text(verbatim: "WindowsMEMZ")
+                }, footer: {
+                  Text(verbatim: "https://github.com/Serene-Garden/Pictor")
+                })
+              }
+            }, label: {
+              HStack {
                 Image(systemName: "fleuron")
                   .font(.system(size: 20))
                   .foregroundStyle(.tint)
                   .fontDesign(.rounded)
-              } else {
-                Image(systemName: "fleuron")
-                  .font(.system(size: 20))
-                  .foregroundStyle(.tint)
+                VStack(alignment: .leading) {
+                  Text(String(localized: "Pictor.credits", bundle: Bundle.module))
+                }
               }
-              VStack(alignment: .leading) {
-                Text(String(localized: "Pictor.credits", bundle: Bundle.module))
-              }
-            }
-          })
+            })
+          }
         }
       }
-    }
-    .onAppear {
-      //        for (key, value) in symbolsAvailability {
-      //          print("<key>\(key)</key>")
-      //          print("<string>\(value)</string>")
+      .onAppear {
+        //        for (key, value) in symbolsAvailability {
+        //          print("<key>\(key)</key>")
+        //          print("<string>\(value)</string>")
+        //        }
+      }
+      //      .onAppear {
+      //        let symbolsOrder = try! PropertyListSerialization.propertyList(from: Data(contentsOf: Bundle.module.url(forResource: "name_aliases", withExtension: "plist")!), format: nil) as! [String: String]
+      //        var output: [String: String] = [:]
+      //        for (key, value) in symbolsOrder {
+      //          if output[value] == nil {
+      //            output.updateValue(key, forKey: value)
+      //          }
+      //////            output[value]?.append(key)
+      ////          }
       //        }
+      //        print(output)
+      //      }
+      //      .onAppear {
+      //        let symbolAvailability = try! PropertyListSerialization.propertyList(from: Data(contentsOf: Bundle.module.url(forResource: "name_availability", withExtension: "plist")!), format: nil) as! [String: [String: Any]]
+      ////        print(type(of: symbolAvailability))
+      //        var symbolsNames = symbolAvailability["symbols"] as! [String: String]
+      //        let symbolsYears = symbolAvailability["year_to_release"] as! [String: [String: String]]
+      //        var yearsToReplace: [String: String] = [:]
+      //        var yearsKey: [String] = []
+      //        for (key, value) in symbolsYears {
+      //          yearsKey.append(key)
+      //          yearsToReplace.updateValue(value["watchOS"]!, forKey: key)
+      //        }
+      ////        print(yearsToReplace)
+      ////        print(symbolsNames)
+      //        symbolsNames.map { key, value in (key, Double(value)!) }
+      //        var trueOutput = symbolsNames.description
+      //        for i in 0..<yearsKey.count {
+      //          trueOutput.replace(yearsKey[i], with: yearsToReplace[yearsKey[i]]!)
+      //        }
+      //        print(trueOutput)
+      ////        print(yearsKey)
+      ////        print(trueOutput)
+      ////        let symbolsNames = symbolAvailability.0
+      ////        let symbolsYears = symbolAvailability.1
+      //      }
     }
-    //      .onAppear {
-    //        let symbolsOrder = try! PropertyListSerialization.propertyList(from: Data(contentsOf: Bundle.module.url(forResource: "name_aliases", withExtension: "plist")!), format: nil) as! [String: String]
-    //        var output: [String: String] = [:]
-    //        for (key, value) in symbolsOrder {
-    //          if output[value] == nil {
-    //            output.updateValue(key, forKey: value)
-    //          }
-    //////            output[value]?.append(key)
-    ////          }
-    //        }
-    //        print(output)
-    //      }
-    //      .onAppear {
-    //        let symbolAvailability = try! PropertyListSerialization.propertyList(from: Data(contentsOf: Bundle.module.url(forResource: "name_availability", withExtension: "plist")!), format: nil) as! [String: [String: Any]]
-    ////        print(type(of: symbolAvailability))
-    //        var symbolsNames = symbolAvailability["symbols"] as! [String: String]
-    //        let symbolsYears = symbolAvailability["year_to_release"] as! [String: [String: String]]
-    //        var yearsToReplace: [String: String] = [:]
-    //        var yearsKey: [String] = []
-    //        for (key, value) in symbolsYears {
-    //          yearsKey.append(key)
-    //          yearsToReplace.updateValue(value["watchOS"]!, forKey: key)
-    //        }
-    ////        print(yearsToReplace)
-    ////        print(symbolsNames)
-    //        symbolsNames.map { key, value in (key, Double(value)!) }
-    //        var trueOutput = symbolsNames.description
-    //        for i in 0..<yearsKey.count {
-    //          trueOutput.replace(yearsKey[i], with: yearsToReplace[yearsKey[i]]!)
-    //        }
-    //        print(trueOutput)
-    ////        print(yearsKey)
-    ////        print(trueOutput)
-    ////        let symbolsNames = symbolAvailability.0
-    ////        let symbolsYears = symbolAvailability.1
-    //      }
   }
 }
 

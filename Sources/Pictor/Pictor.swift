@@ -525,7 +525,7 @@ public struct PictorAboutView: View {
                 .bold()
                 .font(.title2)
               Group {
-                Text(verbatim: "By Serene Garden")
+                Text(verbatim: "By Qastor")
                 Text(verbatim: PictorVersion)
                   .monospaced()
               }
@@ -543,7 +543,7 @@ public struct PictorAboutView: View {
                 Text(verbatim: "ThreeManager785")
                 Text(verbatim: "WindowsMEMZ")
               }, footer: {
-                Text(verbatim: "https://github.com/Serene-Garden/Pictor")
+                Text(verbatim: "https://github.com/Qastor-Studio/Pictor")
               })
             }
           }, label: {

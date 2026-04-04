@@ -91,7 +91,7 @@ If `aboutLinkIsHidden` is set to `true` (default as `false`), then you need to a
 
 or
 
-> Powered by Garden Pictor
+> Powered by Qastor Pictor
 
 
 ## Credits

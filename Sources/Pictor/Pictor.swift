@@ -421,49 +421,47 @@ struct PictorDetailsView: View {
 public struct PictorAboutView: View {
   public var body: some View {
     if #available(watchOS 10.0, *) {
-      NavigationStack {
-        List {
-          Group {
-            HStack {
-              Spacer()
-              VStack(alignment: .center) {
-                Text(verbatim: "Pictor")
-                  .bold()
-                  .font(.title2)
-                Group {
-                  Text(verbatim: "By Serene Garden")
-                  Text(verbatim: PictorVersion)
-                    .monospaced()
-                }
-                //        .foregroundStyle(.secondary)
-                .font(.caption)
+      List {
+        Group {
+          HStack {
+            Spacer()
+            VStack(alignment: .center) {
+              Text(verbatim: "Pictor")
+                .bold()
+                .font(.title2)
+              Group {
+                Text(verbatim: "By Serene Garden")
+                Text(verbatim: PictorVersion)
+                  .monospaced()
               }
-              Spacer()
+              //        .foregroundStyle(.secondary)
+              .font(.caption)
             }
+            Spacer()
           }
-          .listRowBackground(Rectangle().opacity(0).frame(height: 0))
-          Section {
-            NavigationLink(destination: {
-              List {
-                Section(content: {
-                  Text(verbatim: "ThreeManager785")
-                  Text(verbatim: "WindowsMEMZ")
-                }, footer: {
-                  Text(verbatim: "https://github.com/Serene-Garden/Pictor")
-                })
+        }
+        .listRowBackground(Rectangle().opacity(0).frame(height: 0))
+        Section {
+          NavigationLink(destination: {
+            List {
+              Section(content: {
+                Text(verbatim: "ThreeManager785")
+                Text(verbatim: "WindowsMEMZ")
+              }, footer: {
+                Text(verbatim: "https://github.com/Serene-Garden/Pictor")
+              })
+            }
+          }, label: {
+            HStack {
+              Image(systemName: "fleuron")
+                .font(.system(size: 20))
+                .foregroundStyle(.tint)
+                .fontDesign(.rounded)
+              VStack(alignment: .leading) {
+                Text(String(localized: "Pictor.credits", bundle: Bundle.module))
               }
-            }, label: {
-              HStack {
-                Image(systemName: "fleuron")
-                  .font(.system(size: 20))
-                  .foregroundStyle(.tint)
-                  .fontDesign(.rounded)
-                VStack(alignment: .leading) {
-                  Text(String(localized: "Pictor.credits", bundle: Bundle.module))
-                }
-              }
-            })
-          }
+            }
+          })
         }
       }
       .onAppear {

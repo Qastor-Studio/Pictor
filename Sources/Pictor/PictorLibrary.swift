@@ -8,8 +8,8 @@
 import Foundation
 import SwiftUI
 
-public let PictorVersion = "1.4.1"
-let latestSystemVer = "11.0"
+public let PictorVersion = "1.4.2"
+let latestSystemVer = "26.0"
 
 let symbolsInGroup: [String: [String]] = {
     NSDictionary(contentsOf: Bundle.module.url(forResource: "SymbolsInGroup", withExtension: "plist")!)! as! [String: [String]]

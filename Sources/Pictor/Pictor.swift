@@ -242,7 +242,7 @@ struct PictorSymbolMainView: View {
             }
           }
           .toolbar {
-            if #available(iOS 17, watchOS 10, *) {
+              if #available(iOS 17, watchOS 10.5, *) {
               ToolbarItem(placement: .topBarTrailing, content: {
                 PictorDetailsView(symbol: $symbol)
                   .contentTransition(.symbolEffect(.replace))
@@ -265,7 +265,7 @@ struct PictorSymbolMainView: View {
     .onAppear {
     }
     .toolbar {
-      if #available(iOS 17, watchOS 10, *) {
+        if #available(iOS 17, watchOS 10.5, *) {
         ToolbarItem(placement: .topBarTrailing, content: {
           PictorDetailsView(symbol: $symbol)
             .contentTransition(.symbolEffect(.replace))
@@ -333,7 +333,7 @@ struct PictorEmojiMainView: View {
             }
             .navigationTitle(Text(emojiGroupNames[group+1]!))
             .toolbar {
-              if #available(watchOS 10, *) {
+                if #available(watchOS 10.5, *) {
                 ToolbarItem(placement: .topBarTrailing, content: {
                   Button(action: {
                     aboutLinkIsShwon = !aboutLinkIsHidden
@@ -355,7 +355,7 @@ struct PictorEmojiMainView: View {
     }
     .navigationTitle(String(localized: "Group.title", bundle: Bundle.module))
     .toolbar {
-      if #available(watchOS 10, *) {
+        if #available(watchOS 10.5, *) {
         ToolbarItem(placement: .topBarTrailing, content: {
           Button(action: {
             aboutLinkIsShwon = !aboutLinkIsHidden
@@ -489,7 +489,7 @@ struct PictorDetailsView: View {
       }
       .navigationTitle(String(localized: "Details", bundle: Bundle.module))
       .toolbar {
-        if #available(watchOS 10, *) {
+          if #available(watchOS 10.5, *) {
           ToolbarItem(placement: .topBarTrailing, content: {
             NavigationLink(destination: {
               PictorAboutView()
